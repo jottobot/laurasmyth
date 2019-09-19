@@ -1,0 +1,88 @@
+/* NAVBAR */
+.nav {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  background-color: gray;
+}
+.name {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* BIO */
+.bio {
+  margin-top: 50px;
+  text-align: center;
+}
+#headshot {
+  width: 300px;
+  height: auto;
+}
+
+/* PARALLAX */
+.parallax {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1519925610903-381054cc2a1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  text-align: center;
+  margin-top: 50px;
+}
+#choreotitle {
+  margin-bottom: 50px;
+}
+#performancetitle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
