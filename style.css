@@ -96,4 +96,8 @@
   .parallax2 {
     height: 300px;
   }
+  .contact {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
