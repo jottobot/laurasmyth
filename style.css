@@ -86,3 +86,14 @@
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 415px) {
+  iframe {
+    max-width: 300px;
+  }
+  .parallax {
+    height: 300px;
+  }
+  .parallax2 {
+    height: 300px;
+  }
+}
