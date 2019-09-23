@@ -38,33 +38,46 @@
 }
 .center {
   position: absolute;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 80px;
+  font-size: 90px;
   color: white;
-  font-family: 'Alegreya', serif;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+}
+.description{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 img { 
   width: 100%;
-  height: auto;
+  height: 500px;
   opacity: 0.8;
 }
 
 /* BIO */
 .title {
   font-size: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-family: 'Alegreya', serif;
-  padding-top: 50px;
+  padding-top: 40px;
   text-align: center;
 }
 .about {
-  margin-top: 50px;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
   font-family: 'Lato', sans-serif;
 }
 .bio {
@@ -76,6 +89,11 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;
+}
+.textquote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
 }
 #headshot {
   width: 300px;
@@ -108,17 +126,24 @@ p {
 
 /* STATEMENT */
 #photo1 {
-  width: 200px;
+  width: 300px;
   height: auto;
 }
 .statement {
   text-align: center;
   margin-top: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 50px;
   font-family: 'Lato', sans-serif;
   background-color: rgba(145, 101, 170, 0.205);
+  height: 600px;
+}
+.state {
+  padding: 20px;
+  border-style: dotted;
+  border-left: 2px;
+  border-top: 2px;
 }
 .animation-element.slide-left {
   opacity: 0;
@@ -144,7 +169,7 @@ p {
 /* PARALLAX */
 .parallax {
   /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1519925610903-381054cc2a1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-image: url("images/DB_201467\ copy.jpg");
 
   /* Set a specific height */
   height: 600px;
@@ -181,6 +206,9 @@ p {
   margin-top: 30px;
   margin-bottom: 80px;
   font-family: 'Lato', sans-serif;
+}
+#contact {
+  background-color: rgba(136, 136, 136, 0.534);
 }
 .contact2 {
   text-align: center;
@@ -245,21 +273,32 @@ p {
     font-size: 40px;
     text-align: center;
   }
+  .description {
+    font-size: 12px;
+  }
+  .about {
+    padding: 0px 10px 0px 10px;
+  }
   .title {
     font-size: 40px;
     margin-bottom: 30px;
+  }
+  #headshot {
+    width: 280px;
+    margin-bottom: 10px;
   }
   #photo1 {
     margin-bottom: 20px;
   }
   .statement {
     text-align: center;
-    margin-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    /* margin-top: 50px; */
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
     background-color: rgba(145, 101, 170, 0.205);
+    height: auto;
   }
   iframe {
     max-width: 300px;
