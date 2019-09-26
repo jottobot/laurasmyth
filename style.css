@@ -49,7 +49,6 @@ html {
   font-size: 90px;
   color: white;
   text-transform: uppercase;
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.5px;
 }
@@ -88,10 +87,8 @@ img {
   line-height: 25px;
 }
 .bio {
-  border-style: solid;
-  border-color: purple;
-  border-top: 10px;
-  border-bottom: 10px;
+  border-left: solid 4px purple;
+  border-right: solid 4px purple;
   color: black;
   padding-left: 10px;
   padding-right: 10px;
@@ -143,15 +140,11 @@ p {
   padding-right: 100px;
   padding-bottom: 50px;
   font-family: 'Lato', sans-serif;
-  /* background-color: rgba(154, 120, 173, 0.075); */
   height: 600px;
   margin-bottom: 100px;
 }
 .state {
   padding-top: 20px;
-  /* border-style: dotted;
-  border-left: 2px;
-  border-top: 2px; */
 }
 .line2 {
   width: 80%;
@@ -197,19 +190,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax2 {
-  /* The image used */
-  background-image: url("https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
-  
-  /* Set a specific height */
-  height: 600px;
-  
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /* DANCE WORK */
 .title2 {
@@ -241,7 +221,6 @@ p {
   margin-bottom: 60px;
   align-content: center;  
 }
-
 
 /* CONTACT */
 .contact {
@@ -298,52 +277,71 @@ p {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 420px) {
+  /* NAVBAR */
   .navbar {
     height: 60px;
+    text-align: center;
   }
   .navbar ul li {
     list-style: none;
     display: inline-block;
+    text-align: center;
   }
   .navbar ul li a{
     font-size: 8px;
     letter-spacing: .8px;
     padding: 0px;
     text-decoration: underline;
+    margin-right: 4px;
   }
   .justify-content-end {
     color: rgba(185, 153, 223, 0.082);
     font-size: 1px;
   }
+  /* OPENING */
   .center {
     font-size: 40px;
     text-align: center;
   }
+  /* BIO */
   .description {
     font-size: 12px;
-  }
-  .about {
-    padding: 0px 10px 0px 10px;
   }
   .title {
     font-size: 40px;
     margin-bottom: 30px;
   }
-  #headshot {
-    width: 280px;
-    margin-bottom: 10px;
+  .about {
+    padding: 0px 10px 0px 10px;
   }
+  #headshot {
+    width: 240px;
+    margin: 20px 0px 60px 0px;
+  }
+  .bio {
+    border-left: solid 2px purple;
+    border-right: solid 2px purple;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 10px 20px 10px;
+  }
+  /* PARALLAX */
+  .parallax {
+    background-attachment: scroll;
+  }
+  .parallax {
+    height: 390px;
+  }
+  /* STATEMENT */
   #photo1 {
     margin-bottom: 20px;
   }
   .statement {
     text-align: center;
-    /* margin-top: 50px; */
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
-    /* background-color: rgba(145, 101, 170, 0.205); */
     height: auto;
   }
   .textquote {
@@ -351,21 +349,24 @@ p {
     margin-bottom: 20px;
     font-size: 25px;
   }
+  /* CHOREO */
+  .title2 {
+    height: 200px;
+  }
+  #title3 {
+    padding-top: 80px;
+    font-size: 30px;
+  }
+  .choreo {
+    padding: 0px 20px 0px 20px;
+  }
+  .performance {
+    padding: 0px 20px 0px 20px;
+  }
   iframe {
     max-width: 300px;
   }
-  .parallax {
-    background-attachment: scroll;
-  }
-  .parallax2 {
-    background-attachment: scroll;
-  }
-  .parallax {
-    height: 300px;
-  }
-  .parallax2 {
-    height: 300px;
-  }
+  /* CONTACT */
   #contact {
     padding-left: 20px;
     padding-right: 20px;
