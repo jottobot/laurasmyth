@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 .navbar ul {
   text-align: center;
@@ -79,6 +83,8 @@ img {
   padding-left: 60px;
   padding-right: 60px;
   font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
 }
 .bio {
   border-style: solid;
@@ -94,6 +100,7 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 35px;
+  line-height: 45px;
 }
 #headshot {
   width: 300px;
@@ -131,19 +138,24 @@ p {
 }
 .statement {
   text-align: center;
-  margin-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
   font-family: 'Lato', sans-serif;
-  background-color: rgba(154, 120, 173, 0.075);
+  /* background-color: rgba(154, 120, 173, 0.075); */
   height: 600px;
+  margin-bottom: 100px;
 }
 .state {
-  padding: 20px;
-  border-style: dotted;
+  padding-top: 20px;
+  /* border-style: dotted;
   border-left: 2px;
-  border-top: 2px;
+  border-top: 2px; */
+}
+.line2 {
+  width: 80%;
+  background-color: rgba(128, 0, 128, 0.212) !important;
+  height: 1px !important; 
 }
 .animation-element.slide-left {
   opacity: 0;
@@ -164,6 +176,10 @@ p {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+}
+.pic3 {
+  width: 300px;
+  height: auto;
 }
 
 /* PARALLAX */
@@ -197,7 +213,9 @@ p {
 /* PORTFOLIO */
 .choreo {
   text-align: center;
-  background-color: rgba(182, 142, 209, 0.192);
+  padding-left: 60px;
+  padding-right: 60px;
+  /* background-color: rgba(182, 142, 209, 0.192); */
 }
 
 /* CONTACT */
@@ -240,18 +258,21 @@ p {
 
 /* FOOTER */
 .footer {
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 40px;
   background-color: purple;
   color: white;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  padding-top: 10px;
 }
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 420px) {
   .navbar {
     height: 60px;
   }
@@ -297,7 +318,7 @@ p {
     padding-right: 10px;
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
-    background-color: rgba(145, 101, 170, 0.205);
+    /* background-color: rgba(145, 101, 170, 0.205); */
     height: auto;
   }
   .textquote {
@@ -354,4 +375,25 @@ p {
     height: 85px;
     margin-bottom: 5px;
   }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 1024px) {
+.image1 {
+  width: 110%;
+}
+.center {
+  font-size: 50px;
+}
+.navbar ul li a{
+  font-size: 7px;
+  letter-spacing: .8px;
+  padding: 0px;
+  text-decoration: underline;
+}
+#photo1 {
+  width: 200px;
+}
+.pic3 {
+  width: 200px;
+}
 }
