@@ -72,11 +72,12 @@ img {
 
 /* BIO */
 .title {
-  font-size: 50px;
-  margin-bottom: 30px;
-  font-family: 'Alegreya', serif;
-  padding-top: 40px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  padding-top: 50px;
   text-align: center;
+  text-transform: uppercase;
 }
 .about {
   text-align: center;
@@ -210,13 +211,37 @@ p {
   background-size: cover;
 }
 
-/* PORTFOLIO */
-.choreo {
+/* DANCE WORK */
+.title2 {
+  background-color: rgb(86, 73, 94);
+  height: 400px;  
+}
+.title3 {
+  font-size: 50px;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.choreo {  
   text-align: center;
   padding-left: 60px;
   padding-right: 60px;
-  /* background-color: rgba(182, 142, 209, 0.192); */
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
+.performance {
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  align-content: center;  
+}
+
 
 /* CONTACT */
 .contact {
