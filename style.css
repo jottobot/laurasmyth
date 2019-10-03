@@ -3,7 +3,7 @@ html {
 }
 
 /* NAVBAR */
-.navbar ul {
+/* .navbar ul {
   text-align: center;
 }
 .navbar ul li {
@@ -34,6 +34,27 @@ html {
   letter-spacing: 2px;
   padding: 15px;
   font-family: 'Alegreya', serif;
+} */
+#navbarText {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 15px;
+  transition: all ease-in 0.2s;
+  font-family: 'Lato', sans-serif;
+}
+.navbar-text {
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Alegreya', serif;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
 }
 
 /* HEADER */
@@ -72,9 +93,11 @@ img {
 
 /* BIO */
 .title {
-  font-size: 40px;
-  margin-bottom: 50px;
-  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  margin-bottom: 30px;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Alegreya', serif;
+  letter-spacing: 1.5px;
   padding-top: 50px;
   text-align: center;
   text-transform: uppercase;
@@ -84,27 +107,39 @@ img {
   padding-left: 60px;
   padding-right: 60px;
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 23px;
 }
 .bio {
-  border-left: solid 3px rgb(95, 10, 95);
-  border-right: solid 3px rgb(95, 10, 95);
+  border-left: solid 2px rgb(95, 10, 95);
+  border-right: solid 2px rgb(95, 10, 95);
   color: black;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 30px 20px 30px;
   margin-bottom: 20px;
 }
 .textquote {
-  margin-top: 20px;
+  margin-top: 30px;
+  font-family: 'Alegreya', serif;
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 45px;
+}
+.barack {
+  font-family: 'Alegreya', serif;
+  float: right;
+  font-size: 25px;
+  line-height: 0px;
+  padding-right: 20px;
+}
+.quote {
+  margin-bottom: 60px;
 }
 #headshot {
   width: 300px;
   height: auto;
   margin-bottom: 20px;
   border-radius: 2px;
+  padding-top: 90px;
 }
 p {
   margin-bottom: 0px;
@@ -204,10 +239,10 @@ p {
   padding-top: 150px;
   text-align: center;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Alegreya', serif;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 1.6px;
 }
 .choreo {  
   text-align: center;
@@ -281,7 +316,7 @@ p {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 420px) {
   /* NAVBAR */
-  .navbar {
+  /* .navbar {
     height: 60px;
     text-align: center;
   }
@@ -291,36 +326,41 @@ p {
     text-align: center;
   }
   .navbar ul li a{
-    font-size: 8px;
-    letter-spacing: .8px;
+    font-size: 13px;
+    letter-spacing: 1x;
     padding: 0px;
     text-decoration: underline;
-    margin-right: 4px;
+    padding-right: 10px;
   }
   .justify-content-end {
     color: rgba(185, 153, 223, 0.082);
     font-size: 1px;
-  }
+  } */
   /* OPENING */
   .center {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+  }
+  .image1 {
+    height: 500px;
   }
   /* BIO */
   .description {
-    font-size: 12px;
-    letter-spacing: 0px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-top: 50px;
   }
   .title {
     font-size: 40px;
     margin-bottom: 30px;
   }
   .about {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 30px 0px 30px;
   }
   #headshot {
     width: 240px;
     margin: 20px 0px 60px 0px;
+    padding-top: 0px;
   }
   .bio {
     border-left: solid 2px purple;
@@ -342,11 +382,15 @@ p {
   }
   .statement {
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
     height: auto;
+  }
+  .state {
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .textquote {
     margin-top: 20px;
@@ -414,12 +458,12 @@ p {
 .center {
   font-size: 50px;
 }
-.navbar ul li a{
+/* .navbar ul li a{
   font-size: 7px;
   letter-spacing: .8px;
   padding: 0px;
   text-decoration: underline;
-}
+} */
 #photo1 {
   width: 200px;
 }
