@@ -68,7 +68,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 90px;
-  color: rgb(255, 255, 255);
+  color: white;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1.5px;
@@ -80,7 +80,7 @@ html {
   font-family: 'Lato', sans-serif;
   font-family: 'Dancing Script', cursive;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 30px;
   letter-spacing: 1px;
@@ -109,6 +109,7 @@ img {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 23px;
+  background-color: rgba(224, 189, 247, 0.178);
 }
 .bio {
   border-left: solid 2px rgb(95, 10, 95);
@@ -246,10 +247,8 @@ p {
 }
 .choreo {  
   text-align: center;
-  padding-left: 60px;
-  padding-right: 60px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding: 60px;
+  background-color: rgba(217, 170, 248, 0.178)
 }
 .performance {
   text-align: center;
@@ -315,40 +314,22 @@ p {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 420px) {
-  /* NAVBAR */
-  /* .navbar {
-    height: 60px;
-    text-align: center;
-  }
-  .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-  }
-  .navbar ul li a{
-    font-size: 13px;
-    letter-spacing: 1x;
-    padding: 0px;
-    text-decoration: underline;
-    padding-right: 10px;
-  }
-  .justify-content-end {
-    color: rgba(185, 153, 223, 0.082);
-    font-size: 1px;
-  } */
   /* OPENING */
   .center {
     font-size: 50px;
-    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   .image1 {
     height: 500px;
   }
   /* BIO */
   .description {
-    font-size: 21px;
+    font-size: 23px;
     letter-spacing: 1px;
-    margin-top: 50px;
+    /* margin-top: 20px; */
+    font-family: 'Alegreya', serif;
   }
   .title {
     font-size: 40px;
@@ -363,11 +344,11 @@ p {
     padding-top: 0px;
   }
   .bio {
-    border-left: solid 2px purple;
-    border-right: solid 2px purple;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px 10px 20px 10px;
+    border-left: solid 1px purple;
+    border-right: solid 1px purple;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin: 0px 10px 20px 10px; */
   }
   /* PARALLAX */
   .parallax {
@@ -458,12 +439,6 @@ p {
 .center {
   font-size: 50px;
 }
-/* .navbar ul li a{
-  font-size: 7px;
-  letter-spacing: .8px;
-  padding: 0px;
-  text-decoration: underline;
-} */
 #photo1 {
   width: 200px;
 }
