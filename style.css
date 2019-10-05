@@ -3,58 +3,36 @@ html {
 }
 
 /* NAVBAR */
-/* .navbar ul {
-  text-align: center;
+.navbar {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
 }
-.navbar ul li {
-  list-style: none;
-  display: inline-block;
+#navbarNav {
+  padding-left: 300px;
 }
-.navbar ul li a{
+.navbar-brand {
   display: block;
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
   font-size: 15px;
   letter-spacing: 2px;
   padding: 15px;
-  transition: all ease-in 0.2s;
   font-family: 'Lato', sans-serif;
 }
-.navbar ul li a:hover {
-  color: rgba(49, 0, 49, 0.384);
-  font-weight: bold;
-}
-.justify-content-end {
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
+.nav-item {
+  float: right;
   font-size: 15px;
-  letter-spacing: 2px;
-  padding: 15px;
-  font-family: 'Alegreya', serif;
-} */
-#navbarText {
-  display: block;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
-  font-size: 15px;
-  letter-spacing: 2px;
-  padding: 15px;
-  transition: all ease-in 0.2s;
-  font-family: 'Lato', sans-serif;
-}
-.navbar-text {
+  padding: 10px;
   text-transform: uppercase;
   color: black;
   font-size: 18px;
   letter-spacing: 2px;
   font-family: 'Alegreya', serif;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.nav-item:hover {
   font-weight: bold;
+  color: purple;
 }
 
 /* HEADER */
@@ -77,7 +55,6 @@ html {
   position: absolute;
   top: 80%;
   left: 50%;
-  font-family: 'Lato', sans-serif;
   font-family: 'Dancing Script', cursive;
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
@@ -88,26 +65,26 @@ html {
 img { 
   width: 100%;
   height: 500px;
-  opacity: 0.9;
+  margin-bottom: 0px;
 }
 
 /* BIO */
 .title {
   font-size: 45px;
   margin-bottom: 30px;
-  /* font-family: 'Lato', sans-serif; */
-  font-family: 'Alegreya', serif;
+  font-family: 'Lato', sans-serif;
+  color: black;
   letter-spacing: 1.5px;
   padding-top: 50px;
   text-align: center;
   text-transform: uppercase;
 }
 .about {
-  text-align: center;
+  text-align: justify;
   padding-left: 60px;
   padding-right: 60px;
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 17px;
   line-height: 23px;
   background-color: rgba(224, 189, 247, 0.178);
 }
@@ -116,14 +93,16 @@ img {
   border-right: solid 2px rgb(95, 10, 95);
   color: black;
   padding: 20px 30px 20px 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .textquote {
   margin-top: 30px;
   font-family: 'Alegreya', serif;
+  color: black;
   margin-bottom: 20px;
   font-size: 30px;
   line-height: 45px;
+  text-align: center;
 }
 .barack {
   font-family: 'Alegreya', serif;
@@ -140,7 +119,6 @@ img {
   height: auto;
   margin-bottom: 20px;
   border-radius: 2px;
-  padding-top: 90px;
 }
 p {
   margin-bottom: 0px;
@@ -167,52 +145,44 @@ p {
 }
 
 /* STATEMENT */
+.statement {
+  margin-bottom: 70px;
+  align-content: center;
+  text-align: center;
+}
 #photo1 {
-  width: 300px;
+  padding-top: 50px;
+  width: 350px;
   height: auto;
   border-radius: 2px;
 }
-.statement {
-  text-align: center;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 50px;
-  font-family: 'Lato', sans-serif;
-  height: 600px;
-  margin-bottom: 100px;
+.pic3 {
+  padding-top: 50px;
+  width: 350px;
+  height: auto;
+  border-radius: 2px;
 }
 .state {
-  padding-top: 20px;
+  padding: 40px 0px 40px 0px;
+  font-size: 15px;
+  text-align: justify;
+  word-spacing:-2px;
+  line-height: 23px;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+.click {
+  font-style: italic;
+  padding-left: 275px;
+  font-size: 15px;
+  color: gray;
+}
+.click:hover {
+  color:gray;
 }
 .line2 {
   width: 80%;
   background-color: rgba(128, 0, 128, 0.212) !important;
   height: 1px !important; 
-}
-.animation-element.slide-left {
-  opacity: 0;
-  -moz-transition: all 500ms linear;
-  -webkit-transition: all 500ms linear;
-  -o-transition: all 500ms linear;
-  transition: all 500ms linear;
-  -moz-transform: translate3d(-100px, 0px, 0px);
-  -webkit-transform: translate3d(-100px, 0px, 0px);
-  -o-transform: translate(-100px, 0px);
-  -ms-transform: translate(-100px, 0px);
-  transform: translate3d(-100px, 0px, 0px);
-}
-.animation-element.slide-left.in-view {
-  opacity: 1;
-  -moz-transform: translate3d(0px, 0px, 0px);
-  -webkit-transform: translate3d(0px, 0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate3d(0px, 0px, 0px);
-}
-.pic3 {
-  width: 300px;
-  height: auto;
-  border-radius: 2px;
 }
 
 /* PARALLAX */
@@ -240,7 +210,7 @@ p {
   padding-top: 150px;
   text-align: center;
   color: white;
-  font-family: 'Alegreya', serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1.6px;
@@ -248,6 +218,7 @@ p {
 .choreo {  
   text-align: center;
   padding: 60px;
+  align-content: center; 
   background-color: rgba(217, 170, 248, 0.178)
 }
 .performance {
@@ -287,9 +258,19 @@ p {
 }
 .contacttext {
   font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
 }
 .linktext {
   font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.contacttext:hover {
+  color: purple;
+}
+.linktext:hover {
+  color: purple;
 }
 .line {
   width: 40%;
@@ -308,58 +289,70 @@ p {
   color: white;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   padding-top: 10px;
 }
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 420px) {
+  /* NAVBAR */
+  #navbarNav {
+    padding-left: 0px;
+  }
   /* OPENING */
   .center {
-    font-size: 50px;
+    font-size: 60px;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .image1 {
-    height: 500px;
+    height: 600px;
   }
   /* BIO */
-  .description {
-    font-size: 23px;
-    letter-spacing: 1px;
-    /* margin-top: 20px; */
-    font-family: 'Alegreya', serif;
-  }
-  .title {
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
   .about {
+    text-align: center;
     padding: 0px 30px 0px 30px;
-  }
-  #headshot {
-    width: 240px;
-    margin: 20px 0px 60px 0px;
-    padding-top: 0px;
   }
   .bio {
     border-left: solid 1px purple;
     border-right: solid 1px purple;
     padding-left: 15px;
     padding-right: 15px;
-    /* margin: 0px 10px 20px 10px; */
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 50px;
   }
+  .description {
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+  }
+  .title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  #headshot {
+    width: 240px;
+    align-content: center;
+    text-align: center;
+    margin: 20px 0px 60px 0px;
+    padding-top: 0px;
+  }
+
   /* PARALLAX */
   .parallax {
     background-attachment: scroll;
-  }
-  .parallax {
     height: 390px;
   }
   /* STATEMENT */
   #photo1 {
     margin-bottom: 20px;
+    width: 250px;
+  }
+  .pic3 {
+    width: 250px;
   }
   .statement {
     text-align: center;
@@ -372,11 +365,15 @@ p {
   .state {
     padding-left: 30px;
     padding-right: 30px;
+    word-spacing: -3px;
   }
   .textquote {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 25px;
+  }
+  .click {
+    padding-left: 140px;
   }
   /* CHOREO */
   .title2 {
@@ -387,7 +384,7 @@ p {
     font-size: 30px;
   }
   .choreo {
-    padding: 0px 20px 0px 20px;
+    padding: 60px 20px 60px 20px;
   }
   .performance {
     padding: 0px 20px 0px 20px;
@@ -432,17 +429,49 @@ p {
   }
 }
 
-@media only screen and (min-width: 421px) and (max-width: 1024px) {
-.image1 {
-  width: 110%;
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+  .center {
+    font-size: 55px;
+  }
+  #headshot {
+    width: 200px;
+    height: auto;
+  }
+  #photo1 {
+    width: 200px;
+    height: auto;
+  }
+  .pic3 {
+   width: 200px;
+   height: auto;
+  }
+  .click {
+    padding-left: 00px;
+  }
 }
-.center {
-  font-size: 50px;
-}
-#photo1 {
-  width: 200px;
-}
-.pic3 {
-  width: 200px;
-}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #navbarNav {
+    padding-left: 20px
+  }
+  .image1 {
+    width: 100%;
+  }
+  .center {
+    font-size: 50px;
+  }
+  .state {
+    font-size: 18px;
+  }
+  .click {
+    padding-left: 200px;
+  }
+  #photo1 {
+    width: 300px;
+    height: auto;
+  }
+  .pic3 {
+   width: 300px;
+   height: auto;
+  }
 }
