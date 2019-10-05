@@ -320,8 +320,10 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     line-height: 25px;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 50px;
+    font-size: 16px;
+    word-spacing: -1px;
   }
   .description {
     font-size: 28px;
@@ -368,7 +370,7 @@ p {
     /* padding-left: 15px;
     padding-right: 15px; */
     line-height: 25px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: justify;
     margin-bottom: 50px;
   }
@@ -378,7 +380,7 @@ p {
     font-size: 25px;
   }
   .click {
-    padding-left: 140px;
+    padding-left: 30px;
   }
   /* CHOREO */
   .title2 {
