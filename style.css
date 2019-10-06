@@ -7,6 +7,7 @@ html {
   position: relative;
   min-height: 50px;
   border: 1px solid transparent;
+  background-color: rgba(232, 188, 243, 0.171) !important;
 }
 #navbarNav {
   padding-left: 300px;
@@ -164,9 +165,9 @@ p {
 }
 .state {
   padding: 40px 0px 40px 0px;
-  font-size: 15px;
+  font-size: 17px;
   text-align: justify;
-  word-spacing:-2px;
+  word-spacing: 1px;
   line-height: 23px;
   font-family: 'Frank Ruhl Libre', serif;
 }
@@ -260,11 +261,13 @@ p {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: black;
+  margin-bottom: 20px;
 }
 .linktext {
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: black;
+  margin-bottom: 20px;
 }
 .contacttext:hover {
   color: purple;
@@ -280,7 +283,6 @@ p {
 
 /* FOOTER */
 .footer {
-  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
@@ -367,12 +369,9 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     word-spacing: -3px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
     line-height: 25px;
     font-size: 16px;
     text-align: justify;
-    margin-bottom: 50px;
   }
   .textquote {
     margin-top: 20px;
@@ -409,6 +408,9 @@ p {
   }
   .contact2 {
     margin-bottom: 80px;
+  }
+  .contacttext {
+    margin-bottom: 20px;
   }
   .fab {
     font-size: 20px;
@@ -453,11 +455,11 @@ p {
    height: auto;
   }
   .click {
-    padding-left: 00px;
+    padding-left: 0px;
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   #navbarNav {
     padding-left: 20px
   }
@@ -474,11 +476,11 @@ p {
     padding-left: 200px;
   }
   #photo1 {
-    width: 300px;
+    width: 220px;
     height: auto;
   }
   .pic3 {
-   width: 300px;
+   width: 220px;
    height: auto;
-  }
+\  }
 }

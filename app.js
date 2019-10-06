@@ -1,4 +1,11 @@
 $(document).ready(function () {
+  // var zero = 0;
+  // $(window).on('scroll', function () {
+  //   $('#navbar1').toggleClass('hide', $(window).scrollTop()
+  //     > zero);
+  //   zero = $(window).scrollTop()
+  // });
+
   $("#biography").on('click', function (event) {
     $('html, body').animate({
       scrollTop: ($('.about').offset().top)
@@ -20,6 +27,7 @@ $(document).ready(function () {
     }, 300);
   });
 
+  // SLIDE IN OF PHOTO
   //window and animation items
   var animation_elements = $.find('.animation-element');
   var web_window = $(window);
@@ -55,5 +63,17 @@ $(document).ready(function () {
   })
   //trigger our scroll event on initial load
   $(window).trigger('scroll');
+
+  // var prevScrollpos = window.pageYOffset;
+  // window.onscroll = function () {
+  //   var currentScrollPos = window.pageYOffset;
+  //   if (prevScrollpos > currentScrollPos) {
+  //     document.getElementById("navbar1").style.top = "0";
+  //   } else {
+  //     document.getElementById("navbar1").style.top = "-50px";
+  //   }
+  //   prevScrollpos = currentScrollPos;
+  // }
+
 
 });
