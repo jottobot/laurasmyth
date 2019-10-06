@@ -218,9 +218,19 @@ p {
 }
 .choreo {  
   text-align: center;
-  padding: 60px;
+  padding: 50px;
   align-content: center; 
   background-color: rgba(217, 170, 248, 0.178)
+}
+.video {
+  box-shadow: 7px 7px 3px rgba(128, 0, 128, 0.212);
+}
+.videotext {
+  font-family: 'Frank Ruhl Libre', serif;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  font-weight: bolder;
 }
 .performance {
   text-align: center;
