@@ -10,7 +10,7 @@ html {
   background-color: rgba(232, 188, 243, 0.171) !important;
 }
 #navbarNav {
-  padding-left: 300px;
+  padding-left: 350px;
 }
 .navbar-brand {
   display: block;
@@ -220,7 +220,7 @@ p {
   text-align: center;
   padding: 50px;
   align-content: center; 
-  background-color: rgba(217, 170, 248, 0.178)
+  background-color: rgba(221, 189, 243, 0.178)
 }
 .video {
   box-shadow: 7px 7px 3px rgba(128, 0, 128, 0.212);
