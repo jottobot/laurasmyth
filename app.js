@@ -27,6 +27,27 @@ $(document).ready(function () {
     }, 300);
   });
 
+  $("#bio2").on('click', function (event) {
+    $('html, body').animate({
+      scrollTop: ($('.about').offset().top)
+    }, 300);
+  });
+  $("#state2").on('click', function (event) {
+    $('html, body').animate({
+      scrollTop: ($('.statement').offset().top)
+    }, 300);
+  });
+  $("#choreo2").on('click', function (event) {
+    $('html, body').animate({
+      scrollTop: ($('#title3').offset().top)
+    }, 300);
+  });
+  $("#perf2").on('click', function (event) {
+    $('html, body').animate({
+      scrollTop: ($('#title4').offset().top)
+    }, 300);
+  });
+
   // SLIDE IN OF PHOTO
   //window and animation items
   var animation_elements = $.find('.animation-element');

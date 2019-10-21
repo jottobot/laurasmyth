@@ -10,7 +10,7 @@ html {
   background-color: rgba(232, 188, 243, 0.171) !important;
 }
 #navbarNav {
-  padding-left: 350px;
+  padding-left: 320px;
 }
 .navbar-brand {
   display: block;
@@ -290,6 +290,18 @@ p {
   background-color: rgb(99, 25, 89) !important;
   height: 3px !important;  
 }
+#navbar2 {
+  margin-top: -90px;
+}
+.contacttext2 {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.contacttext2:hover {
+  color: purple;
+  cursor: pointer;
+}
 
 /* FOOTER */
 .footer {
@@ -361,6 +373,7 @@ p {
   }
   /* STATEMENT */
   #photo1 {
+    padding-top: 10px;
     margin-bottom: 20px;
     width: 250px;
   }
@@ -408,6 +421,10 @@ p {
   iframe {
     max-width: 300px;
   }
+  #title4 {
+    padding-top: 80px;
+    font-size: 30px;
+  }
   /* CONTACT */
   #contact {
     padding-left: 20px;
@@ -445,6 +462,9 @@ p {
     width: 85px;
     height: 85px;
     margin-bottom: 5px;
+  }
+  #navbar2 {
+    margin-top: 0px;
   }
 }
 
