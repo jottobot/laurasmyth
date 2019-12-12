@@ -13,7 +13,7 @@ $(document).ready(function () {
   });
   $("#choreography").on('click', function (event) {
     $('html, body').animate({
-      scrollTop: ($('#title3').offset().top)
+      scrollTop: ($('.title3').offset().top)
     }, 300);
   });
   $("#Statement").on('click', function (event) {
@@ -39,7 +39,7 @@ $(document).ready(function () {
   });
   $("#choreo2").on('click', function (event) {
     $('html, body').animate({
-      scrollTop: ($('#title3').offset().top)
+      scrollTop: ($('.title3').offset().top)
     }, 300);
   });
   $("#perf2").on('click', function (event) {
